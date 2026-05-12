@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(node server.js)",
+      "Bash(curl -s http://localhost:5000/todos)",
+      "Bash(curl -s -X POST http://localhost:5000/todos -H \"Content-Type: application/json\" -d \"{\\\\\"title\\\\\":\\\\\"Test todo\\\\\"}\")",
+      "Bash(curl -s -X PUT http://localhost:5000/todos/1 -H \"Content-Type: application/json\" -d \"{\\\\\"completed\\\\\":true}\")",
+      "Bash(curl -s -X DELETE http://localhost:5000/todos/ab4a4976-179f-42d8-af13-ef3281561014)",
+      "Bash(taskkill /F /FI \"WINDOWTITLE eq *\" /IM node.exe)",
+      "Bash(exit 0)",
+      "Bash(powershell -Command \"Get-Process node -ErrorAction SilentlyContinue | Stop-Process -Force\")"
+    ]
+  }
+}
