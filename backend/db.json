@@ -1,24 +1,6 @@
 {
   "todos": [
     {
-      "id": "d89ee93b-85d9-4a31-bacd-bbc8a3539c2d",
-      "title": "Instagram ko'ylash",
-      "description": "cheksiz",
-      "completed": false
-    },
-    {
-      "id": "f249b018-2232-45bc-a8d1-872448a6a9d7",
-      "title": "Kino ko'rish",
-      "description": "cheksiz",
-      "completed": false
-    },
-    {
-      "id": "0ee13b0a-b9c8-48bd-9d5a-291231164934",
-      "title": "Piyoda yurish",
-      "description": "",
-      "completed": false
-    },
-    {
       "id": "30138058-a009-4b55-8164-7092fcdbd696",
       "title": "Rolton tayyorlash",
       "description": "yemela",
@@ -28,6 +10,18 @@
       "id": "7efb99bc-0393-449f-a2a5-340b9a4d4a06",
       "title": "Uzmovida kino ko'rish",
       "description": "cheksiz",
+      "completed": false
+    },
+    {
+      "id": "3d8bea8f-8f57-4b50-af40-04c1425607aa",
+      "title": "Todo edit qilish",
+      "description": "bajarilgan ekan!",
+      "completed": false
+    },
+    {
+      "id": "93613357-b25a-4594-9772-6c100d92b1a4",
+      "title": "Test edit",
+      "description": "titleni tahrirlash: salom",
       "completed": false
     }
   ]
