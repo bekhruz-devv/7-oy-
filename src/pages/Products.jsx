@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../css/Product.css";
-import { products } from "../components/ProductCard";
+import { products } from "../data/data.js";
 
 const Products = () => {
   const [search, setSearch] = useState("");
@@ -28,7 +28,6 @@ const Products = () => {
         </div>
       </div>
 
-      {/* Grid */}
       <div className="products-grid">
         {filtered.map((product) => (
           <div key={product.id} className="product-card">
