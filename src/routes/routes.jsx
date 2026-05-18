@@ -25,7 +25,7 @@ export const routes = createBrowserRouter([
         element: <Products />,
       },
       {
-        path: "/products/:Id",
+        path: "/products/:id",
         element: <ProductDetail />,
       },
       {

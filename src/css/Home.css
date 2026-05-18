@@ -2,7 +2,6 @@
   font-family: sans-serif;
 }
 
-/* Hero qism */
 .hero {
   display: flex;
   flex-direction: column;
@@ -43,7 +42,6 @@
   background-color: #534ab7;
 }
 
-/* Cards */
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

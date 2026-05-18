@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../css/Product.css";
-import { products } from "../data/data.js";
+import { products } from "../data/products.js";
 
 const Products = () => {
   const [search, setSearch] = useState("");

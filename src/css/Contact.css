@@ -8,7 +8,6 @@
   align-items: start;
 }
 
-/* Left */
 .contact-left h1 {
   font-size: 28px;
   font-weight: 700;
@@ -52,7 +51,6 @@
   color: #6b7280;
 }
 
-/* Right */
 .contact-form {
   border: 1px solid #e5e7eb;
   border-radius: 16px;

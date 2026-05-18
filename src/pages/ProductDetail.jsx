@@ -4,8 +4,8 @@ import "../css/ProductDetail.css";
 import { products } from "../data/products.js";
 
 const ProductDetail = () => {
-  const { id } = useParams();
-  const product = products.find((p) => p.id === Number(id));
+  const id = useParams().id;
+  const product = products.find((product) => product.id === parseInt(id));
 
   if (!product) {
     return (

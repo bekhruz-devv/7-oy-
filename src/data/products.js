@@ -6,6 +6,13 @@ export const products = [
     category: "ELEKTRONIKA",
     name: "Sony WH-1000XM5 Quloqchin",
     price: 349,
+    desc: "Sony brendining eng yangi flagman quloqchin modeli. 30 soatlik batareya va kristall toza ovoz sifati.",
+    specs: [
+      { label: "Brend", value: "Sony" },
+      { label: "Batareya", value: "30 soat" },
+      { label: "Ulanish", value: "Bluetooth 5.2" },
+      { label: "Og'irligi", value: "250 g" },
+    ],
   },
   {
     id: 2,
@@ -14,6 +21,13 @@ export const products = [
     category: "AKSESSUAR",
     name: "Apple Watch Series 9",
     price: 429,
+    desc: "Apple Watch Series 9 — eng ilg'or aqlli soat. Sog'liqni kuzatish va sport rejimlari.",
+    specs: [
+      { label: "Brend", value: "Apple" },
+      { label: "Batareya", value: "18 soat" },
+      { label: "Ulanish", value: "Bluetooth 5.3" },
+      { label: "Og'irligi", value: "38 g" },
+    ],
   },
   {
     id: 3,
@@ -22,6 +36,13 @@ export const products = [
     category: "SMARTFON",
     name: "iPhone 15 Pro Max",
     price: 1199,
+    desc: "iPhone 15 Pro Max — titanium korpus, A17 Pro chip va professional kamera.",
+    specs: [
+      { label: "Brend", value: "Apple" },
+      { label: "Xotira", value: "256 GB" },
+      { label: "Kamera", value: "48 MP" },
+      { label: "Og'irligi", value: "221 g" },
+    ],
   },
   {
     id: 4,
@@ -30,6 +51,13 @@ export const products = [
     category: "KOMPYUTER",
     name: "MacBook Pro M3",
     price: 1999,
+    desc: "MacBook Pro M3 — Apple Silicon M3 chip bilan professional ishlar uchun noutbuk.",
+    specs: [
+      { label: "Brend", value: "Apple" },
+      { label: "Protsessor", value: "M3" },
+      { label: "RAM", value: "16 GB" },
+      { label: "Og'irligi", value: "1.4 kg" },
+    ],
   },
   {
     id: 5,
@@ -38,6 +66,13 @@ export const products = [
     category: "KAMERA",
     name: "Canon EOS R6 Mark II",
     price: 2499,
+    desc: "Canon EOS R6 Mark II — professional fotograf va videograflar uchun to'liq kadrli kamera.",
+    specs: [
+      { label: "Brend", value: "Canon" },
+      { label: "Sensor", value: "40 MP" },
+      { label: "Video", value: "6K RAW" },
+      { label: "Og'irligi", value: "670 g" },
+    ],
   },
   {
     id: 6,
@@ -46,6 +81,13 @@ export const products = [
     category: "O'YIN",
     name: "PlayStation 5 Pro",
     price: 699,
+    desc: "PlayStation 5 Pro — 8K grafika va yuqori tezlikdagi SSD bilan eng yangi o'yin konsoli.",
+    specs: [
+      { label: "Brend", value: "Sony" },
+      { label: "Xotira", value: "2 TB SSD" },
+      { label: "Grafika", value: "8K" },
+      { label: "Og'irligi", value: "3.2 kg" },
+    ],
   },
 ];
 
